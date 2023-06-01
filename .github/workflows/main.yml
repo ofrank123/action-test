@@ -7,6 +7,6 @@ jobs:
     steps:
       - name: Test action step
         id: test
-        uses: ofrank123/clean-releases-action@v1.0
+        uses: ofrank123/clean-releases-action@dev
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
