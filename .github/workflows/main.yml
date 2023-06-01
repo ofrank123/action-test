@@ -10,4 +10,4 @@ jobs:
         uses: ofrank123/clean-releases-action@dev
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          age: 24
+          age: 6
